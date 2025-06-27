@@ -2,11 +2,9 @@
 
 # 🌿 Real-Time Environmental Monitoring & LED Control System using AIoT
 
-![Project Banner](images/banner.png)
+![Project Banner](images/web ui.jpeg)
 
-> **Tammina Sai Geetanjali (22761A12C5)**  
-> B.Tech - Information Technology, Lakireddy Balireddy College of Engineering (Autonomous)  
-> AICTE - IBM SkillsBuild Internship Project | 2024-2025
+
 
 ## 📑 Project Overview
 
