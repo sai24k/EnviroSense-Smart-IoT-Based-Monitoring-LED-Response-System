@@ -2,7 +2,7 @@
 
 # 🌿 Real-Time Environmental Monitoring & LED Control System using AIoT
 
-![Project Banner](images/web ui.jpeg)
+![Project Banner](images/web-ui.jpeg)
 
 
 
