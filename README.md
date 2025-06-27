@@ -1,6 +1,5 @@
-# EnviroSense-Smart-IoT-Based-Monitoring-LED-Response-System
+# 🌿 EnviroSense-Smart-IoT-Based-Monitoring-LED-Response-System
 
-# 🌿 Real-Time Environmental Monitoring & LED Control System using AIoT
 
 ![Project Banner](images/web-ui.jpeg)
 
@@ -37,15 +36,7 @@ This project is a smart **AIoT-based system** designed to monitor environmental 
 
 ---
 
-## 🖼️ Demonstration
 
-### 🔴 LED Response to Light/Gas
-![LED Demo](images/led_demo.png)
-
-### 🌱 Gas and Soil Monitoring in Action
-![Sensors in Action](images/sensors_demo.png)
-
----
 
 ## 🧩 System Architecture
 
@@ -100,4 +91,3 @@ This project demonstrates the synergy of **AIoT, embedded systems, and web techn
 
 ---
 
-## 📷 Image Directory Structure (Recommended)
