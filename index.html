@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AIoT Environmental Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f3f8ff;
+      color: #222;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #007bff;
+      font-size: 1.8rem;
+      margin-bottom: 30px;
+    }
+    .dashboard {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+    .gauge {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: conic-gradient(#007bff calc(var(--value) * 1%), #eee 0%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .gauge::after {
+      content: attr(data-label);
+      position: absolute;
+      bottom: -25px;
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: #444;
+    }
+    .gauge span {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .slider-section {
+      margin-top: 40px;
+    }
+    input[type=range] {
+      width: 50%;
+      accent-color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>REAL TIME ENVIRONMENTAL MONITORING & LED CONTROL THROUGH AIOT</h1>
+
+  <div class="dashboard">
+    <div class="gauge" style="--value:60" data-label="Gas Levels">
+      <span>60%</span>
+    </div>
+    <div class="gauge" style="--value:45" data-label="Soil Moisture">
+      <span>45%</span>
+    </div>
+    <div class="gauge" style="--value:80" data-label="LED Intensity">
+      <span>3211</span>
+    </div>
+  </div>
+
+  <div class="slider-section">
+    <label for="intensity">LED Intensity:</label><br><br>
+    <input type="range" id="intensity" min="0" max="100" value="80" oninput="updateIntensity(this.value)">
+  </div>
+
+  <script>
+    function updateIntensity(val) {
+      const gauge = document.querySelector('.dashboard .gauge:nth-child(3)');
+      gauge.style.setProperty('--value', val);
+      gauge.querySelector('span').textContent = Math.floor(val * 40.1); // Simulated Lux value
+    }
+  </script>
+</body>
+</html>
