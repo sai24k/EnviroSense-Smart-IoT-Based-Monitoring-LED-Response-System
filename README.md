@@ -68,9 +68,9 @@ This project is a smart **AIoT-based system** designed to monitor environmental 
 
 ---
 
-## 📁 Report
+## 📁 Project Report
 
-📎 [Click to View Full Internship Report (PDF)](./22761A12C5_AIOT_REPORT.pdf)
+📎 [Click to View Full Internship Report (PDF)](https://drive.google.com/file/d/1X0WX8lVQF9GfMhracDzsvr4kuVM5dDyv/view?usp=drivesdk)
 
 > This document includes abstract, introduction, hardware/software requirements, proposed design, flowcharts, applications, results, and conclusion.
 
